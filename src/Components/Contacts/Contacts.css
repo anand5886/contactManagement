@@ -1,0 +1,22 @@
+#ActiveChBx{
+    margin-top: 35px; 
+  }
+
+  #SaveContactBtn {    
+    border-radius: 5px;
+    background-color: #CFE2F3;
+    border-color: #CFE2F3;    
+    margin-top: 14px;
+    width: 120px;
+    padding-bottom: 7px;
+    margin-left: 84%;
+}
+#AddContactBtn {    
+  border-radius: 5px;
+  background-color: #CFE2F3;
+  border-color: #CFE2F3;   
+  width: 120px;
+  padding-bottom: 7px;
+  float: right;
+  
+}

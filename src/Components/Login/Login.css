@@ -1,0 +1,75 @@
+#loginContainer {
+  height: 100%;
+}
+.loginbackground {
+  background: url(../../Assets/Images/Login.png) no-repeat top center fixed;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 95%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* box-shadow: inset 0 0 0 1000px #6666;   */
+  /* box-shadow: inset 0px 0px 19px 175px rgba(119, 119, 119, 0.7); */
+  box-shadow: inset 0px 0px 19px 350px rgba(119, 119, 119, 0.7);
+  -moz-box-shadow: inset 0px 0px 19px 350px rgba(119, 119, 119, 0.76);
+  -webkit-box-shadow: inset 0px 0px 19px 350px rgba(119, 119, 119, 0.76);
+}
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  height: 5%;
+  background-color: #efefef;
+}
+#loginLogo {
+  color: #e6913e;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+#loginBox {
+  margin-top: 60px;
+}
+#loginControlsBox {
+  border: 2px solid #a7b7d1;
+  border-radius: 15px;
+  height: 280x;
+  margin-left: 394px;
+}
+#loginBtn {
+  border-radius: 5px;
+  background-color: #cfe2f3;
+  border-color: #cfe2f3;
+  margin-left: 99px;
+  width: 120px;
+  padding-bottom: 7px;
+}
+#signInText {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#Usernmae {
+  padding-bottom: 13px;
+}
+#Password {
+  padding-bottom: 13px;
+}
+
+#loginContent {
+  margin-top: 90px;
+  /* margin-right: -286px; */
+  color: #ffffff;
+  font-size: 49px;
+  /* margin-left: 104px; */
+  text-align: center;
+}
+#validationMessage {
+  color: red;
+}

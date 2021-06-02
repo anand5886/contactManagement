@@ -1,0 +1,105 @@
+#leftPaneDiv{
+    height: 100%;
+    overflow: hidden;
+    font-size: medium;   
+    margin-top: -28%;
+}
+
+.sidebar-header {    
+    color: #fff;      
+  }
+  #LeftMenuLogo{
+    font-size: 25px;
+    margin-left: 13px;
+  }
+
+  .pro-sidebar > .pro-sidebar-inner {
+    background: #3C4B64 !important;    
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+   
+    background-color: #3C4B64 !important;
+}
+
+.pro-sidebar {
+    color: #ffffff !important;   
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item {
+    margin-left: 35px;
+}
+
+/*Side bar styles new*/
+.sidebarWrapper{
+    position: fixed;
+    background: #3C4B64;
+    /* width: 321px; */
+    height: 100%;
+   margin-top: -67px;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .sidebar-container {
+    box-shadow: 0px 2px 12px 0px #cccccc;
+    /* background: #3C4B64; */
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 247px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    background-color: #3C4B64;
+    /* color: rgba(255,255,255,.75); */
+    z-index: 20;
+    margin-left: 0px;
+    transition: 1s;
+  }
+  .sidebar-content{
+    box-sizing: border-box;
+    background:#3C4B64;
+    border-right:1px solid rgba(0,0,0,.11);
+    /* width: 284px; */
+    height: 100%;
+    margin-left: 0px;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+  }
+  .pro-sidebar .pro-menu .pro-menu-item.active {   
+    color: black;
+    font-weight: 600;
+  }
+  
+  .pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item:before {    
+    border: none !important;   
+    box-shadow: unset !important; 
+  }
+  .pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item {
+    padding-left: unset !important;
+   }
+   .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item > div > ul { /*sub menu item top gap removed*/
+    padding-top: unset !important;    
+  }
+  .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {   
+    align-items: unset !important;    
+  }
+  .pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu > .pro-inner-item > .pro-arrow-wrapper .pro-arrow {  
+    vertical-align: super !important;  
+  }
+  .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-icon-wrapper {
+    margin-right: 0px !important;
+ }
+ .pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item {
+  margin-left: 2px !important;
+}
+
+ .menuItemImage{
+  height: 25px;
+  margin-left: 14px;
+ }
