@@ -1,4 +1,5 @@
-const baseUrl = "https://y08yf1jxc6.execute-api.ap-south-1.amazonaws.com/Prod/";
+const baseUrl =
+  "https://y08yf1jxc6.execute-api.ap-south-1.amazonaws.com/Prod/api/HRMS/";
 //const baseUrl = "https://localhost:44317/api/HRMS/";
 
 export const ServiceUrl = {
